@@ -1,0 +1,36 @@
+		html,
+		body {
+		  height: 100%;
+		  width: 100%;
+		  margin: 0;
+		}
+		.container {
+		  width: 100%;
+		  height: 100%;
+		  background: #f00;
+		  margin: inherit;
+		}
+		.outer {
+		  display: table;
+		  width: 100%;
+		  height: 100%;
+		}
+		.inner {
+		  display: table-cell;
+		  vertical-align: middle;
+		  text-align: center;
+		}
+		.centered {
+		  position: relative;
+		  display: inline-block;
+		  width: 70%;
+		  background: #ffa500;
+		  color: #fff;
+		}
+		.positioned-absolutely {
+		  position: absolute;
+		  top: -2em;
+		  right: -2em;
+		  background: #00f;
+		  padding: 1em;
+		}
